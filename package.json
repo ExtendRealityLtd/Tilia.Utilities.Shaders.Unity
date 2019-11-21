@@ -6,7 +6,7 @@
     "unity": "2018.3",
     "unityRelease": "10f1",
     "keywords": [
-	"shaders"
+        "shaders"
     ],
     "homepage": "https://github.com/ExtendRealityLtd/Tilia.Utilities.Shaders.Unity/",
     "bugs": {
