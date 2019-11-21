@@ -1,29 +1,26 @@
 {
-    "name": "io.extendreality.tilia.{scope}.{feature}.{platform?}",
-    "displayName": "Tilia {scope}.{feature}.{platform?}",
-    "description": "{Description of feature.}",
+    "name": "io.extendreality.tilia.utilities.shaders.unity",
+    "displayName": "Tilia Utilities Shaders Unity",
+    "description": "A collection of custom shaders for the Unity Software",
     "version": "1.0.0",
     "unity": "2018.3",
     "unityRelease": "10f1",
     "keywords": [
-        "pattern"
+	"shaders"
     ],
-    "homepage": "https://github.com/ExtendRealityLtd/Tilia.{scope}.{feature}.{platform?}/",
+    "homepage": "https://github.com/ExtendRealityLtd/Tilia.Utilities.Shaders.Unity/",
     "bugs": {
-        "url": "https://github.com/ExtendRealityLtd/Tilia.{scope}.{feature}.{platform?}/issues"
+        "url": "https://github.com/ExtendRealityLtd/Tilia.Utilities.Shaders.Unity/issues"
     },
     "repository": {
         "type": "git",
-        "url": "ssh://git@github.com/ExtendRealityLtd/Tilia.{scope}.{feature}.{platform?}.git"
+        "url": "ssh://git@github.com/ExtendRealityLtd/Tilia.Utilities.Shaders.Unity.git"
     },
     "license": "MIT",
     "author": {
         "name": "Extend Reality Ltd",
         "email": "hello@extendreality.io",
         "url": "https://github.com/ExtendRealityLtd"
-    },
-    "dependencies": {
-        "io.extendreality.zinnia.unity": "X.Y.Z"
     },
     "files": [
         "*.md",
