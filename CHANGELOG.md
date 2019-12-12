@@ -1,5 +1,14 @@
 # Changelog
 
+### [1.0.1](https://github.com/ExtendRealityLtd/Tilia.Utilities.Shaders.Unity/compare/v1.0.0...v1.0.1) (2019-12-12)
+
+#### Bug Fixes
+
+* **Runtime:** remove unrequired assembly definition file ([46fab73](https://github.com/ExtendRealityLtd/Tilia.Utilities.Shaders.Unity/commit/46fab738a2fee822b818b165131bc585aaaf0d20))
+  > The shader code does not require an assembly definition file as the shader code is not compiled into an assembly for use elsewhere.
+  > 
+  > It is simply used inside of the Unity software.
+
 ## 1.0.0 (2019-11-21)
 
 #### Features
