@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.0.2](https://github.com/ExtendRealityLtd/Tilia.Utilities.Shaders.Unity/compare/v1.0.1...v1.0.2) (2019-12-16)
+
+#### Bug Fixes
+
+* **README.md:** provide correct project links for license and version ([0f1377a](https://github.com/ExtendRealityLtd/Tilia.Utilities.Shaders.Unity/commit/0f1377a7edb8248749babea7781735b50dc94914))
+  > The project link was incorrect for the License badge and the version release so it was showing the incorrect data on the README. This has now been updated to the correct project link.
+
 ### [1.0.1](https://github.com/ExtendRealityLtd/Tilia.Utilities.Shaders.Unity/compare/v1.0.0...v1.0.1) (2019-12-12)
 
 #### Bug Fixes
