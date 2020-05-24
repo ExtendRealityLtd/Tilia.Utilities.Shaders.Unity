@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/ExtendRealityLtd/Tilia.Utilities.Shaders.Unity/compare/v1.0.2...v1.1.0) (2020-05-24)
+
+#### Features
+
+* **Screen:** screen overlay shader for crosshair ([df5d744](https://github.com/ExtendRealityLtd/Tilia.Utilities.Shaders.Unity/commit/df5d7445c69f50a3908e2204b23023c104d365fa))
+  > The Screen Overlay shader draws over everything else in the scene but draws within the world space so can be used as a 3d crosshair that will draw over any object it is pointing at.
+
 ### [1.0.2](https://github.com/ExtendRealityLtd/Tilia.Utilities.Shaders.Unity/compare/v1.0.1...v1.0.2) (2019-12-16)
 
 #### Bug Fixes
