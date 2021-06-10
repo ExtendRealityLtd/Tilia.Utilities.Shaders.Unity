@@ -2,7 +2,7 @@
     "name": "io.extendreality.tilia.utilities.shaders.unity",
     "displayName": "Tilia Utilities Shaders Unity",
     "description": "A collection of custom shaders for the Unity Software",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "unity": "2018.3",
     "unityRelease": "10f1",
     "keywords": [

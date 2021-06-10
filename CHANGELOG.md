@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.2.0](https://github.com/ExtendRealityLtd/Tilia.Utilities.Shaders.Unity/compare/v1.1.0...v1.2.0) (2021-06-10)
+
+#### Features
+
+* **Unlit:** add transparent color shader that blocks out complete view ([37792b7](https://github.com/ExtendRealityLtd/Tilia.Utilities.Shaders.Unity/commit/37792b7552688750f2fa9dc9993aa2201a8f9c79))
+  > The Unlit Transparent Color Blockout shader will completely block the camera view with the color provided.
+
+#### Miscellaneous Chores
+
+* **README.md:** update title logo to related-media repo ([1b7a824](https://github.com/ExtendRealityLtd/Tilia.Utilities.Shaders.Unity/commit/1b7a82498b9dea43eefa99e2085fd219511f4790))
+  > The title logo is now located on the related-media repo.
+
 ## [1.1.0](https://github.com/ExtendRealityLtd/Tilia.Utilities.Shaders.Unity/compare/v1.0.2...v1.1.0) (2020-05-24)
 
 #### Features
