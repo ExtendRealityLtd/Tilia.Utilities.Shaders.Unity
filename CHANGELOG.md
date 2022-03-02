@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://github.com/ExtendRealityLtd/Tilia.Utilities.Shaders.Unity/compare/v1.2.0...v1.3.0) (2022-03-02)
+
+#### Features
+
+* **package.json:** add information urls to package ([91e6acd](https://github.com/ExtendRealityLtd/Tilia.Utilities.Shaders.Unity/commit/91e6acd5c7f082304f5be39658c9a9fcd9c11e22))
+  > The changelog, documentation and license url has been added to the package.json as these are used within the Unity package manager.
+
 ## [1.2.0](https://github.com/ExtendRealityLtd/Tilia.Utilities.Shaders.Unity/compare/v1.1.0...v1.2.0) (2021-06-10)
 
 #### Features
