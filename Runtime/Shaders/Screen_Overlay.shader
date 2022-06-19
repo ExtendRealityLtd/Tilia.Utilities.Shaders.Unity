@@ -28,6 +28,8 @@ Shader "Tilia/Screen/Overlay"
 					float4 pos : POSITION;
 					float2 coord : TEXCOORD0;
 					fixed4 color : COLOR;
+
+					UNITY_VERTEX_INPUT_INSTANCE_ID
 				};
 
 				struct vert2frag
@@ -35,6 +37,8 @@ Shader "Tilia/Screen/Overlay"
 					float4 pos : SV_POSITION;
 					half2 coord : TEXCOORD0;
 					fixed4 color : COLOR;
+
+					UNITY_VERTEX_OUTPUT_STEREO
 				};
 
 				sampler2D _MainTex;
@@ -44,6 +48,11 @@ Shader "Tilia/Screen/Overlay"
 				vert2frag vert(data input)
 				{
 					vert2frag result;
+
+					UNITY_SETUP_INSTANCE_ID(input);
+					UNITY_INITIALIZE_OUTPUT(vert2frag, result);
+					UNITY_INITIALIZE_VERTEX_OUTPUT_STEREO(result);
+
 					result.pos = UnityObjectToClipPos(input.pos);
 					result.pos.z -= 0.01;
 					result.coord = TRANSFORM_TEX(input.coord, _MainTex);
