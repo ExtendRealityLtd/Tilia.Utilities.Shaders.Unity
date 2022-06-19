@@ -1,5 +1,19 @@
 # Changelog
 
+### [1.3.1](https://github.com/ExtendRealityLtd/Tilia.Utilities.Shaders.Unity/compare/v1.3.0...v1.3.1) (2022-06-19)
+
+#### Bug Fixes
+
+* **Shaders:** add support for single pass instanced rendering ([ceb1656](https://github.com/ExtendRealityLtd/Tilia.Utilities.Shaders.Unity/commit/ceb165644ed59b19837afed002d1d9ad91b79694))
+  > A couple of the shaders were not working with single pass instanced rendering and were only rendering the object in the left eye camera.
+  > 
+  > This has been fixed by following the guide in the Unity Documentation: https://docs.unity3d.com/Manual/SinglePassInstancing.html
+
+#### Miscellaneous Chores
+
+* **dependabot:** remove bddckr from reviewers ([2955ea4](https://github.com/ExtendRealityLtd/Tilia.Utilities.Shaders.Unity/commit/2955ea4d98d056de6f94a6811cce555e8bcd189e))
+  > Chris hasn't been actively part of the project for a while.
+
 ## [1.3.0](https://github.com/ExtendRealityLtd/Tilia.Utilities.Shaders.Unity/compare/v1.2.0...v1.3.0) (2022-03-02)
 
 #### Features
