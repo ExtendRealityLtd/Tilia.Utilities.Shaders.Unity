@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.0](https://github.com/ExtendRealityLtd/Tilia.Utilities.Shaders.Unity/compare/v1.3.1...v1.4.0) (2023-06-14)
+
+#### Features
+
+* **Shaders:** add vignette shader ([963f9a7](https://github.com/ExtendRealityLtd/Tilia.Utilities.Shaders.Unity/commit/963f9a7d9d6db2ed0e4321430b765e63c8f8f81d))
+  > The Vignette shader simply applies an iris fade effect around the edge of an object of a certain colour with an optional feather.
+
 ### [1.3.1](https://github.com/ExtendRealityLtd/Tilia.Utilities.Shaders.Unity/compare/v1.3.0...v1.3.1) (2022-06-19)
 
 #### Bug Fixes
